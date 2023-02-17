@@ -2,15 +2,14 @@
 #include <time.h>
 #include <stdio.h>
 /**
- *  * main - main block
- *   * Description: Print statements based on the last digit of the random number.
- *    * Return: 0
- *     */
+ *   main - main block
+ *   Description: Print statements based on the last digit of the random number.
+ *   Return: 0
+ */
 int main(void)
 {
 	int n;
 	int m;
-
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	m = n % 10;
@@ -22,7 +21,6 @@ int main(void)
 		printf("Last digit of %i is %i and is 0\n", n, m);
 	else
 		printf("Last digit of %i is %i and is less than 6 and not 0\n",
-			 n, m);
-
+			n, m);
 	return (0);
 }
