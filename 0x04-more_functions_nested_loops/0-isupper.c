@@ -1,6 +1,5 @@
 /*
  * File: 0-isupper.c
- * Auth: olawuwo abideen
  */
 
 #include "main.h"
