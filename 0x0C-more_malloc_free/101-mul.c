@@ -30,4 +30,3 @@ void _is_zero(char *argv[])
 		exit(0);
 	}
 }
-
